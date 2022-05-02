@@ -1,0 +1,533 @@
+[2022-05-02T15:58:23.247713 11452] === CCACHE 4.3 STARTED =========================================
+[2022-05-02T15:58:23.247711 11600] Config: (default) absolute_paths_in_stderr = false
+[2022-05-02T15:58:23.247711 11600] Config: (default) base_dir = 
+[2022-05-02T15:58:23.247711 11600] Config: (environment) cache_dir = C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-05-02T15:58:23.247711 11600] Config: (default) compiler = 
+[2022-05-02T15:58:23.247711 11600] Config: (default) compiler_check = mtime
+[2022-05-02T15:58:23.247711 11600] Config: (default) compiler_type = auto
+[2022-05-02T15:58:23.247711 11600] Config: (default) compression = true
+[2022-05-02T15:58:23.247711 11600] Config: (default) compression_level = 0
+[2022-05-02T15:58:23.247711 11600] Config: (default) cpp_extension = 
+[2022-05-02T15:58:23.247711 11600] Config: (default) debug = false
+[2022-05-02T15:58:23.247711 11600] Config: (default) debug_dir = 
+[2022-05-02T15:58:23.247711 11600] Config: (default) depend_mode = false
+[2022-05-02T15:58:23.247711 11600] Config: (default) direct_mode = true
+[2022-05-02T15:58:23.247711 11600] Config: (default) disable = false
+[2022-05-02T15:58:23.247711 11600] Config: (default) extra_files_to_hash = 
+[2022-05-02T15:58:23.247711 11600] Config: (default) file_clone = false
+[2022-05-02T15:58:23.247711 11600] Config: (default) hard_link = false
+[2022-05-02T15:58:23.247711 11600] Config: (default) hash_dir = true
+[2022-05-02T15:58:23.247711 11600] Config: (default) ignore_headers_in_manifest = 
+[2022-05-02T15:58:23.247711 11600] Config: (default) ignore_options = 
+[2022-05-02T15:58:23.247711 11600] Config: (default) inode_cache = false
+[2022-05-02T15:58:23.247711 11600] Config: (default) keep_comments_cpp = false
+[2022-05-02T15:58:23.247711 11600] Config: (default) limit_multiple = 0.8
+[2022-05-02T15:58:23.247711 11600] Config: (environment) log_file = C:\Users\javie\PYCHAR~1\GUIOSC~2\main.build\ccache-13144.txt
+[2022-05-02T15:58:23.247711 11600] Config: (default) max_files = 0
+[2022-05-02T15:58:23.247711 11600] Config: (default) max_size = 5.0G
+[2022-05-02T15:58:23.247711 11600] Config: (default) path = 
+[2022-05-02T15:58:23.247711 11600] Config: (default) pch_external_checksum = false
+[2022-05-02T15:58:23.247711 11600] Config: (default) prefix_command = 
+[2022-05-02T15:58:23.247711 11600] Config: (default) prefix_command_cpp = 
+[2022-05-02T15:58:23.247711 11600] Config: (default) read_only = false
+[2022-05-02T15:58:23.247711 11600] Config: (default) read_only_direct = false
+[2022-05-02T15:58:23.247711 11600] Config: (default) recache = false
+[2022-05-02T15:58:23.247711 11600] Config: (default) run_second_cpp = true
+[2022-05-02T15:58:23.247711 11600] Config: (default) sloppiness = 
+[2022-05-02T15:58:23.247711 11600] Config: (default) stats = true
+[2022-05-02T15:58:23.247711 11600] Config: (default) temporary_dir = C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2022-05-02T15:58:23.247711 11600] Config: (default) umask = 
+[2022-05-02T15:58:23.247978 11600] Command line: C:\Users\javie\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\ccache.exe C:\Users\javie\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\gcc.exe -o static_src\CompiledCellType.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\javie\AppData\Local\Programs\Python\Python310\include -I. -IC:\Users\javie\AppData\Local\Programs\Python\PYTHON~1\lib\SITE-P~1\nuitka\build\include -IC:\Users\javie\AppData\Local\Programs\Python\PYTHON~1\lib\SITE-P~1\nuitka\build\static_src static_src\CompiledCellType.c
+[2022-05-02T15:58:23.247723 16016] Config: (default) absolute_paths_in_stderr = false
+[2022-05-02T15:58:23.247723 16016] Config: (default) base_dir = 
+[2022-05-02T15:58:23.247723 16016] Config: (environment) cache_dir = C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-05-02T15:58:23.247723 16016] Config: (default) compiler = 
+[2022-05-02T15:58:23.247723 16016] Config: (default) compiler_check = mtime
+[2022-05-02T15:58:23.247723 16016] Config: (default) compiler_type = auto
+[2022-05-02T15:58:23.247723 16016] Config: (default) compression = true
+[2022-05-02T15:58:23.247723 16016] Config: (default) compression_level = 0
+[2022-05-02T15:58:23.247723 16016] Config: (default) cpp_extension = 
+[2022-05-02T15:58:23.247723 16016] Config: (default) debug = false
+[2022-05-02T15:58:23.247723 16016] Config: (default) debug_dir = 
+[2022-05-02T15:58:23.247723 16016] Config: (default) depend_mode = false
+[2022-05-02T15:58:23.247723 16016] Config: (default) direct_mode = true
+[2022-05-02T15:58:23.247723 16016] Config: (default) disable = false
+[2022-05-02T15:58:23.247723 16016] Config: (default) extra_files_to_hash = 
+[2022-05-02T15:58:23.247723 16016] Config: (default) file_clone = false
+[2022-05-02T15:58:23.247723 16016] Config: (default) hard_link = false
+[2022-05-02T15:58:23.247723 16016] Config: (default) hash_dir = true
+[2022-05-02T15:58:23.247723 16016] Config: (default) ignore_headers_in_manifest = 
+[2022-05-02T15:58:23.247723 16016] Config: (default) ignore_options = 
+[2022-05-02T15:58:23.247723 16016] Config: (default) inode_cache = false
+[2022-05-02T15:58:23.247723 16016] Config: (default) keep_comments_cpp = false
+[2022-05-02T15:58:23.247723 16016] Config: (default) limit_multiple = 0.8
+[2022-05-02T15:58:23.247723 16016] Config: (environment) log_file = C:\Users\javie\PYCHAR~1\GUIOSC~2\main.build\ccache-13144.txt
+[2022-05-02T15:58:23.247723 16016] Config: (default) max_files = 0
+[2022-05-02T15:58:23.247723 16016] Config: (default) max_size = 5.0G
+[2022-05-02T15:58:23.247723 16016] Config: (default) path = 
+[2022-05-02T15:58:23.247723 16016] Config: (default) pch_external_checksum = false
+[2022-05-02T15:58:23.247723 16016] Config: (default) prefix_command = 
+[2022-05-02T15:58:23.247723 16016] Config: (default) prefix_command_cpp = 
+[2022-05-02T15:58:23.247723 16016] Config: (default) read_only = false
+[2022-05-02T15:58:23.247723 16016] Config: (default) read_only_direct = false
+[2022-05-02T15:58:23.247723 16016] Config: (default) recache = false
+[2022-05-02T15:58:23.247723 16016] Config: (default) run_second_cpp = true
+[2022-05-02T15:58:23.247723 16016] Config: (default) sloppiness = 
+[2022-05-02T15:58:23.247723 16016] Config: (default) stats = true
+[2022-05-02T15:58:23.247723 16016] Config: (default) temporary_dir = C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2022-05-02T15:58:23.247723 16016] Config: (default) umask = 
+[2022-05-02T15:58:23.248045 16016] Command line: C:\Users\javie\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\ccache.exe C:\Users\javie\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\gcc.exe -o __constants.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\javie\AppData\Local\Programs\Python\Python310\include -I. -IC:\Users\javie\AppData\Local\Programs\Python\PYTHON~1\lib\SITE-P~1\nuitka\build\include -IC:\Users\javie\AppData\Local\Programs\Python\PYTHON~1\lib\SITE-P~1\nuitka\build\static_src __constants[2022-05-02T15:58:23.247713 11452] Config: (default) absolute_paths_in_stderr = false
+[2022-05-02T15:58:23.247713 11452] Con[2022-05-02T15:58:23.248177 16772] Working directory: C:/Users/javie/PYCHAR~1/GUIOSC~2/main.build
+\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-05-02T15:58:23.247713 11452] Config: (default) compiler = 
+[2022-05-02T15:58:23.247713 11452] Config: (default) compiler_check = mtime
+[2022-05-02T15:58:23.247713 11452] Config: (default) compiler_type = auto
+[2022-05-02T15:58:23.247713 11452] Config: (default) compression = true
+[2022-05-02T15:58:23.247713 11452] Config: (default) compression_level = 0
+[2022-05-02T15:58:23.247713 11452] Config: (default) cpp_extension = 
+[2022-05-02T15:58:23.247713 11452] Config: (default) debug = false
+[2022-05-02T15:58:23.247713 11452] Config: (default) debug_dir = 
+[2022-05-02T15:58:23.247713 11452] Config: (default) depend_mode = false
+[2022-05-02T15:58:23.247713 11452] Config: (default) direct_mode = true
+[2022-05-02T15:58:23.247713 11452] Config: (default) disable = false
+[2022-05-02T15:58:23.247713 11452] Config: (default) extra_files_to_hash = 
+[2022-05-02T15:58:23.247713 11452] Config: (default) file_clone = false
+[2022-05-02T15:58:23.247713 11452] Config: (default) hard_link = false
+[2022-05-02T15:58:23.247713 11452] Config: (default) hash_dir = true
+[2022-05-02T15:58:23.247713 11452] Config: (default) ignore_headers_in_manifest = 
+[2022-05-02T15:58:23.247713 11452] Config: (default) ignore_options = 
+[2022-05-02T15:58:23.247713 11452] Config: (default) inode_cache = false
+[2022-05-02T15:58:23.247713 11452] Config: (default) keep_comments_cpp = false
+[2022-05-02T15:58:23.247713 11452] Config: (default) limit_multiple = 0.8
+[2022-05-02T15:58:23.247713 11452] Config: (environment) log_file = C:\Users\javie\PYCHAR~1\GUIOSC~2\main.build\ccache-13144.txt
+[2022-05-02T15:58:23.247713 11452] Config: (default) max_files = 0
+[2022-05-02T15:58:23.247713 11452] Config: (default) max_size = 5.0G
+[2022-05-02T15:58:23.247713 11452] Config: (default) path = 
+[2022-05-02T15:58:23.247713 11452] Config: (default) pch_external_checksum = false
+[2022-05-02T15:58:23.247713 11452] Config: (default) prefix_command = 
+[2022-05-02T15:58:23.247713 11452] Config: (default) prefix_command_cpp = 
+[2022-05-02T15:58:23.247713 11452] Config: (default) read_only = false
+[2022-05-02T15:58:23.247713 11452] Config: (default) read_only_direct = false
+[2022-05-02T15:58:23.247713 11452] Config: (default) recache = false
+[2022-05-02T15:58:23.247713 11452] Config: (default) run_second_cpp = true
+[2022-05-02T15:58:23.247713 11452] Config: (default) sloppiness = 
+[2022-05-02T15:58:23.247713 11452] Config: (default) stats = true
+[2022-05-02T15:58:23.247713 11452] Config: (default) temporary_dir = C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2022-05-02T15:58:23.247713 11452] Config: (default) umask = 
+[2022-05-02T15:58:23.248128 11452] Command line: C:\Users\javie\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\ccache.exe C:\Users\javie\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\gcc.exe -o __loader.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\javie\AppData\Local\Programs\Python\Python310\include -I. -IC:\Users\javie\AppData\Local\Programs\Python\PYTHON~1\lib\SITE-P~1\nuitka\build\include -IC:\Users\javie\AppData\Local\Programs\Python\PYTHON~1\lib\SITE-P~1\nuitka\build\static_src __loader.c
+e.__main__.c
+[2022-05-02T15:58:23.248210 16016] Compiler type: gcc
+:/Users/javie/PYCHAR~1/GUIOSC~2/main.build
+[2022-05-02T15:58:23.248216 11452] Hostname: unknown
+[[2022-05-02T15:58:23.248233 3796 ] Working directory: [2022-05-02T15:58:23.248238 11452] Working directory: C:/Users/javie/PYCHAR~1/GUIOSC~2/main.build
+[2022-05-02T15:58:23.248248 3796 ] Compiler type: gcc
+[2022-05-02T15:58:23.248253 11452] Compiler type: gcc
+[2022-05-02T15:58:23.248554 18788] Source file: static_src\MainProgram.c
+[2022-05-02T15:58:23.248564 18788] Object file: static_src\MainProgram.o
+[2022-05-02T15:58:23.248613 16016] Source file: __constants.c
+[2022-05-02T15:58:23.248623 16016] Object file: __constants.o
+iledCellType.c
+[2022-05-02T15:58:23.248648 11600] Object file: static_src\CompiledCellType.o
+[2022-05-02T15:58:23.248651 3796 ] Source file: module.__main__.c
+[2022-05-02T15:58:23.248662 3796 ] Object file: module.__main[2022-05-02T15:58:23.248660 11452] Source file: __loader.c
+ers.o
+[2022-05-02T15:58:23.248673 18788] Trying direct lookup
+[2022-05-02T15:58:23.248679 11452] Object file: __loader.o
+[2022-05-02T15:58:23.248716 16016] Trying direct lookup
+[2022-05-02T15:58:23.248727 11600] Trying direct lookup
+[2022-05-02T15:58:23.248765 3796 ] Trying direct lookup
+[2022-05-02T15:58:23.248780 11452] Trying direct lookup
+[2022-05-02T15:58:23.248786 16772] Trying direct lookup
+[2022-05-02T15:58:23.248889 16016] No manifest with name 6496b00ud99mo55asf1blt61lf0u7ora2 in the cache
+[2022-05-02T15:58:23.248892 18788] No manifest with name e074s9q0h0kr104k06q02h2lp0egv1q98 in the cache
+[2022-05-02T15:58:23.248918 11452] No manifest with name ea91nvlk0jj0spa9eduabnlma773ha056 in the cache
+[2022-05-02T15:58:23.249013 16772] No manifest with name 15a1cq085hbg4es9nqk3aebqvkgbnk530 in the cache
+[2022-05-02T15:58:23.249261 3796 ] No manifest with name 9545a1a7jupp1tm3n54f3f37or37pvei6 in the cache
+[2022-05-02T15:58:23.251536 16016] Running preprocessor
+[2022-05-02T15:58:23.251870 18788] Running preprocessor
+[2022-05-02T15:58:23.251994 11600] Running preprocessor
+[2022-05-02T15:58:23.252077 11452] Running preprocessor
+[2022-05-02T15:58:23.252219 3796 ] Running preprocessor
+[2022-05-02T15:58:23.252249 16772] Running preprocessor
+[2022-05-02T15:58:23.554532 16376] === CCACHE 4.3 STARTED =========================================
+[2022-05-02T15:58:23.554532 16376] Config: (default) absolute_paths_in_stderr = false
+[2022-05-02T15:58:23.554532 16376] Config: (default) base_dir = 
+[2022-05-02T15:58:23.554532 16376] Config: (environment) cache_dir = C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-05-02T15:58:23.554532 16376] Config: (default) compiler = 
+[2022-05-02T15:58:23.554532 16376] Config: (default) compiler_check = mtime
+[2022-05-02T15:58:23.554532 16376] Config: (default) compiler_type = auto
+[2022-05-02T15:58:23.554532 16376] Config: (default) compression = true
+[2022-05-02T15:58:23.554532 16376] Config: (default) compression_level = 0
+[2022-05-02T15:58:23.554532 16376] Config: (default) cpp_extension = 
+[2022-05-02T15:58:23.554532 16376] Config: (default) debug = false
+[2022-05-02T15:58:23.554532 16376] Config: (default) debug_dir = 
+[2022-05-02T15:58:23.554532 16376] Config: (default) depend_mode = false
+[2022-05-02T15:58:23.554532 16376] Config: (default) direct_mode = true
+[2022-05-02T15:58:23.554532 16376] Config: (default) disable = false
+[2022-05-02T15:58:23.554532 16376] Config: (default) extra_files_to_hash = 
+[2022-05-02T15:58:23.554532 16376] Config: (default) file_clone = false
+[2022-05-02T15:58:23.554532 16376] Config: (default) hard_link = false
+[2022-05-02T15:58:23.554532 16376] Config: (default) hash_dir = true
+[2022-05-02T15:58:23.554532 16376] Config: (default) ignore_headers_in_manifest = 
+[2022-05-02T15:58:23.554532 16376] Config: (default) ignore_options = 
+[2022-05-02T15:58:23.554532 16376] Config: (default) inode_cache = false
+[2022-05-02T15:58:23.554532 16376] Config: (default) keep_comments_cpp = false
+[2022-05-02T15:58:23.554532 16376] Config: (default) limit_multiple = 0.8
+[2022-05-02T15:58:23.554532 16376] Config: (environment) log_file = C:\Users\javie\PYCHAR~1\GUIOSC~2\main.build\ccache-13144.txt
+[2022-05-02T15:58:23.554532 16376] Config: (default) max_files = 0
+[2022-05-02T15:58:23.554532 16376] Config: (default) max_size = 5.0G
+[2022-05-02T15:58:23.554532 16376] Config: (default) path = 
+[2022-05-02T15:58:23.554532 16376] Config: (default) pch_external_checksum = false
+[2022-05-02T15:58:23.554532 16376] Config: (default) prefix_command = 
+[2022-05-02T15:58:23.554532 16376] Config: (default) prefix_command_cpp = 
+[2022-05-02T15:58:23.554532 16376] Config: (default) read_only = false
+[2022-05-02T15:58:23.554532 16376] Config: (default) read_only_direct = false
+[2022-05-02T15:58:23.554532 16376] Config: (default) recache = false
+[2022-05-02T15:58:23.554532 16376] Config: (default) run_second_cpp = true
+[2022-05-02T15:58:23.554532 16376] Config: (default) sloppiness = 
+[2022-05-02T15:58:23.554532 16376] Config: (default) stats = true
+[2022-05-02T15:58:23.554532 16376] Config: (default) temporary_dir = C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2022-05-02T15:58:23.554532 16376] Config: (default) umask = 
+[2022-05-02T15:58:23.554638 16376] Command line: C:\Users\javie\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\ccache.exe C:\Users\javie\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\gcc.exe -o static_src\CompiledFunctionType.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\javie\AppData\Local\Programs\Python\Python310\include -I. -IC:\Users\javie\AppData\Local\Programs\Python\PYTHON~1\lib\SITE-P~1\nuitka\build\include -IC:\Users\javie\AppData\Local\Programs\Python\PYTHON~1\lib\SITE-P~1\nuitka\build\static_src static_src\CompiledFunctionType.c
+[2022-05-02T15:58:23.554680 16376] Hostname: unknown
+[2022-05-02T15:58:23.554688 16376] Working directory: C:/Users/javie/PYCHAR~1/GUIOSC~2/main.build
+[2022-05-02T15:58:23.554693 16376] Compiler type: gcc
+[2022-05-02T15:58:23.554859 16376] Source file: static_src\CompiledFunctionType.c
+[2022-05-02T15:58:23.554866 16376] Object file: static_src\CompiledFunctionType.o
+[2022-05-02T15:58:23.554925 16376] Trying direct lookup
+[2022-05-02T15:58:23.555119 16376] No manifest with name 780adp6oadvjrvlf17mlc5b6esrnuqu04 in the cache
+[2022-05-02T15:58:23.556051 16376] Running preprocessor
+[2022-05-02T15:58:23.587211 18676] === CCACHE 4.3 STARTED =========================================
+[2022-05-02T15:58:23.587211 18676] Config: (default) absolute_paths_in_stderr = false
+[2022-05-02T15:58:23.587211 18676] Config: (default) base_dir = 
+[2022-05-02T15:58:23.587211 18676] Config: (environment) cache_dir = C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-05-02T15:58:23.587211 18676] Config: (default) compiler = 
+[2022-05-02T15:58:23.587211 18676] Config: (default) compiler_check = mtime
+[2022-05-02T15:58:23.587211 18676] Config: (default) compiler_type = auto
+[2022-05-02T15:58:23.587211 18676] Config: (default) compression = true
+[2022-05-02T15:58:23.587211 18676] Config: (default) compression_level = 0
+[2022-05-02T15:58:23.587211 18676] Config: (default) cpp_extension = 
+[2022-05-02T15:58:23.587211 18676] Config: (default) debug = false
+[2022-05-02T15:58:23.587211 18676] Config: (default) debug_dir = 
+[2022-05-02T15:58:23.587211 18676] Config: (default) depend_mode = false
+[2022-05-02T15:58:23.587211 18676] Config: (default) direct_mode = true
+[2022-05-02T15:58:23.587211 18676] Config: (default) disable = false
+[2022-05-02T15:58:23.587211 18676] Config: (default) extra_files_to_hash = 
+[2022-05-02T15:58:23.587211 18676] Config: (default) file_clone = false
+[2022-05-02T15:58:23.587211 18676] Config: (default) hard_link = false
+[2022-05-02T15:58:23.587211 18676] Config: (default) hash_dir = true
+[2022-05-02T15:58:23.587211 18676] Config: (default) ignore_headers_in_manifest = 
+[2022-05-02T15:58:23.587211 18676] Config: (default) ignore_options = 
+[2022-05-02T15:58:23.587211 18676] Config: (default) inode_cache = false
+[2022-05-02T15:58:23.587211 18676] Config: (default) keep_comments_cpp = false
+[2022-05-02T15:58:23.587211 18676] Config: (default) limit_multiple = 0.8
+[2022-05-02T15:58:23.587211 18676] Config: (environment) log_file = C:\Users\javie\PYCHAR~1\GUIOSC~2\main.build\ccache-13144.txt
+[2022-05-02T15:58:23.587211 18676] Config: (default) max_files = 0
+[2022-05-02T15:58:23.587211 18676] Config: (default) max_size = 5.0G
+[2022-05-02T15:58:23.587211 18676] Config: (default) path = 
+[2022-05-02T15:58:23.587211 18676] Config: (default) pch_external_checksum = false
+[2022-05-02T15:58:23.587211 18676] Config: (default) prefix_command = 
+[2022-05-02T15:58:23.587211 18676] Config: (default) prefix_command_cpp = 
+[2022-05-02T15:58:23.587211 18676] Config: (default) read_only = false
+[2022-05-02T15:58:23.587211 18676] Config: (default) read_only_direct = false
+[2022-05-02T15:58:23.587211 18676] Config: (default) recache = false
+[2022-05-02T15:58:23.587211 18676] Config: (default) run_second_cpp = true
+[2022-05-02T15:58:23.587211 18676] Config: (default) sloppiness = 
+[2022-05-02T15:58:23.587211 18676] Config: (default) stats = true
+[2022-05-02T15:58:23.587211 18676] Config: (default) temporary_dir = C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2022-05-02T15:58:23.587211 18676] Config: (default) umask = 
+[2022-05-02T15:58:23.587312 18676] Command line: C:\Users\javie\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\ccache.exe C:\Users\javie\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\gcc.exe -o static_src\CompiledGeneratorType.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\javie\AppData\Local\Programs\Python\Python310\include -I. -IC:\Users\javie\AppData\Local\Programs\Python\PYTHON~1\lib\SITE-P~1\nuitka\build\include -IC:\Users\javie\AppData\Local\Programs\Python\PYTHON~1\lib\SITE-P~1\nuitka\build\static_src static_src\CompiledGeneratorType.c
+[2022-05-02T15:58:23.587353 18676] Hostname: unknown
+[2022-05-02T15:58:23.587361 18676] Working directory: C:/Users/javie/PYCHAR~1/GUIOSC~2/main.build
+[2022-05-02T15:58:23.587366 18676] Compiler type: gcc
+[2022-05-02T15:58:23.587543 18676] Source file: static_src\CompiledGeneratorType.c
+[2022-05-02T15:58:23.587550 18676] Object file: static_src\CompiledGeneratorType.o
+[2022-05-02T15:58:23.587607 18676] Trying direct lookup
+[2022-05-02T15:58:23.587776 18676] No manifest with name d65bof2jjbpbdb83389r9qvfhjkqsdo9s in the cache
+[2022-05-02T15:58:23.588677 18676] Running preprocessor
+[2022-05-02T15:58:23.596367 6908 ] === CCACHE 4.3 STARTED =========================================
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) absolute_paths_in_stderr = false
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) base_dir = 
+[2022-05-02T15:58:23.596367 6908 ] Config: (environment) cache_dir = C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) compiler = 
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) compiler_check = mtime
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) compiler_type = auto
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) compression = true
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) compression_level = 0
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) cpp_extension = 
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) debug = false
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) debug_dir = 
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) depend_mode = false
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) direct_mode = true
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) disable = false
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) extra_files_to_hash = 
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) file_clone = false
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) hard_link = false
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) hash_dir = true
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) ignore_headers_in_manifest = 
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) ignore_options = 
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) inode_cache = false
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) keep_comments_cpp = false
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) limit_multiple = 0.8
+[2022-05-02T15:58:23.596367 6908 ] Config: (environment) log_file = C:\Users\javie\PYCHAR~1\GUIOSC~2\main.build\ccache-13144.txt
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) max_files = 0
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) max_size = 5.0G
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) path = 
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) pch_external_checksum = false
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) prefix_command = 
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) prefix_command_cpp = 
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) read_only = false
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) read_only_direct = false
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) recache = false
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) run_second_cpp = true
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) sloppiness = 
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) stats = true
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) temporary_dir = C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2022-05-02T15:58:23.596367 6908 ] Config: (default) umask = 
+[2022-05-02T15:58:23.596471 6908 ] Command line: C:\Users\javie\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\ccache.exe C:\Users\javie\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\gcc.exe -o static_src\InspectPatcher.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\javie\AppData\Local\Programs\Python\Python310\include -I. -IC:\Users\javie\AppData\Local\Programs\Python\PYTHON~1\lib\SITE-P~1\nuitka\build\include -IC:\Users\javie\AppData\Local\Programs\Python\PYTHON~1\lib\SITE-P~1\nuitka\build\static_src static_src\InspectPatcher.c
+[2022-05-02T15:58:23.596516 6908 ] Hostname: unknown
+[2022-05-02T15:58:23.596524 6908 ] Working directory: C:/Users/javie/PYCHAR~1/GUIOSC~2/main.build
+[2022-05-02T15:58:23.596529 6908 ] Compiler type: gcc
+[2022-05-02T15:58:23.596702 6908 ] Source file: static_src\InspectPatcher.c
+[2022-05-02T15:58:23.596709 6908 ] Object file: static_src\InspectPatcher.o
+[2022-05-02T15:58:23.596762 6908 ] Trying direct lookup
+[2022-05-02T15:58:23.596894 6908 ] No manifest with name b19f6b36vtu8rpouinq0m2qrk40855a00 in the cache
+[2022-05-02T15:58:23.597596 6908 ] Running preprocessor
+[2022-05-02T15:58:23.604760 18480] === CCACHE 4.3 STARTED =========================================
+[2022-05-02T15:58:23.604760 18480] Config: (default) absolute_paths_in_stderr = false
+[2022-05-02T15:58:23.604760 18480] Config: (default) base_dir = 
+[2022-05-02T15:58:23.604760 18480] Config: (environment) cache_dir = C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-05-02T15:58:23.604760 18480] Config: (default) compiler = 
+[2022-05-02T15:58:23.604760 18480] Config: (default) compiler_check = mtime
+[2022-05-02T15:58:23.604760 18480] Config: (default) compiler_type = auto
+[2022-05-02T15:58:23.604760 18480] Config: (default) compression = true
+[2022-05-02T15:58:23.604760 18480] Config: (default) compression_level = 0
+[2022-05-02T15:58:23.604760 18480] Config: (default) cpp_extension = 
+[2022-05-02T15:58:23.604760 18480] Config: (default) debug = false
+[2022-05-02T15:58:23.604760 18480] Config: (default) debug_dir = 
+[2022-05-02T15:58:23.604760 18480] Config: (default) depend_mode = false
+[2022-05-02T15:58:23.604760 18480] Config: (default) direct_mode = true
+[2022-05-02T15:58:23.604760 18480] Config: (default) disable = false
+[2022-05-02T15:58:23.604760 18480] Config: (default) extra_files_to_hash = 
+[2022-05-02T15:58:23.604760 18480] Config: (default) file_clone = false
+[2022-05-02T15:58:23.604760 18480] Config: (default) hard_link = false
+[2022-05-02T15:58:23.604760 18480] Config: (default) hash_dir = true
+[2022-05-02T15:58:23.604760 18480] Config: (default) ignore_headers_in_manifest = 
+[2022-05-02T15:58:23.604760 18480] Config: (default) ignore_options = 
+[2022-05-02T15:58:23.604760 18480] Config: (default) inode_cache = false
+[2022-05-02T15:58:23.604760 18480] Config: (default) keep_comments_cpp = false
+[2022-05-02T15:58:23.604760 18480] Config: (default) limit_multiple = 0.8
+[2022-05-02T15:58:23.604760 18480] Config: (environment) log_file = C:\Users\javie\PYCHAR~1\GUIOSC~2\main.build\ccache-13144.txt
+[2022-05-02T15:58:23.604760 18480] Config: (default) max_files = 0
+[2022-05-02T15:58:23.604760 18480] Config: (default) max_size = 5.0G
+[2022-05-02T15:58:23.604760 18480] Config: (default) path = 
+[2022-05-02T15:58:23.604760 18480] Config: (default) pch_external_checksum = false
+[2022-05-02T15:58:23.604760 18480] Config: (default) prefix_command = 
+[2022-05-02T15:58:23.604760 18480] Config: (default) prefix_command_cpp = 
+[2022-05-02T15:58:23.604760 18480] Config: (default) read_only = false
+[2022-05-02T15:58:23.604760 18480] Config: (default) read_only_direct = false
+[2022-05-02T15:58:23.604760 18480] Config: (default) recache = false
+[2022-05-02T15:58:23.604760 18480] Config: (default) run_second_cpp = true
+[2022-05-02T15:58:23.604760 18480] Config: (default) sloppiness = 
+[2022-05-02T15:58:23.604760 18480] Config: (default) stats = true
+[2022-05-02T15:58:23.604760 18480] Config: (default) temporary_dir = C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2022-05-02T15:58:23.604760 18480] Config: (default) umask = 
+[2022-05-02T15:58:23.604868 18480] Command line: C:\Users\javie\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\ccache.exe C:\Users\javie\AppData\Local\Nuitka\Nuitka\gcc\x86_64\11.2.0-12.0.1-9.0.0-r1\mingw64\bin\gcc.exe -o static_src\MetaPathBasedLoader.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\javie\AppData\Local\Programs\Python\Python310\include -I. -IC:\Users\javie\AppData\Local\Programs\Python\PYTHON~1\lib\SITE-P~1\nuitka\build\include -IC:\Users\javie\AppData\Local\Programs\Python\PYTHON~1\lib\SITE-P~1\nuitka\build\static_src static_src\MetaPathBasedLoader.c
+[2022-05-02T15:58:23.604906 18480] Hostname: unknown
+[2022-05-02T15:58:23.604914 18480] Working directory: C:/Users/javie/PYCHAR~1/GUIOSC~2/main.build
+[2022-05-02T15:58:23.604919 18480] Compiler type: gcc
+[2022-05-02T15:58:23.605166 18480] Source file: static_src\MetaPathBasedLoader.c
+[2022-05-02T15:58:23.605177 18480] Object file: static_src\MetaPathBasedLoader.o
+[2022-05-02T15:58:23.605245 18480] Trying direct lookup
+[2022-05-02T15:58:23.605441 18480] No manifest with name e2321j4tj4lf6iufbqf7d0tirjanqlq5k in the cache
+[2022-05-02T15:58:23.606464 18480] Running preprocessor
+[2022-05-02T15:58:23.908452 11452] Got result name from preprocessor
+[2022-05-02T15:58:23.908532 11452] No result with name 541bqorulup3et7t4bp83239rn9fj0m10 in the cache
+[2022-05-02T15:58:23.908556 11452] Running real compiler
+[2022-05-02T15:58:24.006367 11452] Using default compression level 1
+[2022-05-02T15:58:24.006493 11452] Storing result __loader.o
+[2022-05-02T15:58:24.006536 11452] Storing embedded file #0 .o (9251 bytes) from __loader.o
+[2022-05-02T15:58:24.007200 11452] Stored in cache: C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/4/1bqorulup3et7t4bp83239rn9fj0m10R
+[2022-05-02T15:58:24.007873 11452] Adding result name to C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/a/91nvlk0jj0spa9eduabnlma773ha056M
+[2022-05-02T15:58:24.011291 11452] Using default compression level 1
+[2022-05-02T15:58:24.012030 11452] Result: cache miss
+[2022-05-02T15:58:24.012386 11452] Acquired lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/stats.lock
+[2022-05-02T15:58:24.013149 11452] Releasing lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/stats.lock
+[2022-05-02T15:58:24.013396 11452] Acquired lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/stats.lock
+[2022-05-02T15:58:24.014029 11452] Releasing lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/stats.lock
+[2022-05-02T15:58:24.014238 11452] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stderr.BdLhhQ
+[2022-05-02T15:58:24.014334 11452] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stdout.Ht5Zmn
+[2022-05-02T15:58:24.014434 11452] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stderr.S5JE5o
+[2022-05-02T15:58:24.014556 11452] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.54z9E9.i
+[2022-05-02T15:58:24.014726 11452] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.54z9E9
+[2022-05-02T15:58:24.519733 11600] Got result name from preprocessor
+[2022-05-02T15:58:24.519854 11600] No result with name c325nlup43jrdiluahhcvqr2r3tqtfreo in the cache
+[2022-05-02T15:58:24.519879 11600] Running real compiler
+[2022-05-02T15:58:24.522394 16772] Got result name from preprocessor
+[2022-05-02T15:58:24.522418 6908 ] Got result name from preprocessor
+[2022-05-02T15:58:24.522537 16772] No result with name 4d891l721fulfmc0dbggm81gu09bu2r0e in the cache
+[2022-05-02T15:58:24.522546 6908 ] No result with name 4373k5s5nhrug3b2bded4jo87nnqg5oou in the cache
+[2022-05-02T15:58:24.522562 16772] Running real compiler
+[2022-05-02T15:58:24.522568 6908 ] Running real compiler
+[2022-05-02T15:58:24.522638 16016] Got result name from preprocessor
+[2022-05-02T15:58:24.522749 16016] No result with name ec49gpgn97t7abjr187ll2a55g58uoqca in the cache
+[2022-05-02T15:58:24.522779 16016] Running real compiler
+[2022-05-02T15:58:24.524005 18480] Got result name from preprocessor
+[2022-05-02T15:58:24.524105 18480] No result with name a77au98m07crsjn1neuulr5cl6ucljck8 in the cache
+[2022-05-02T15:58:24.524124 18480] Running real compiler
+[2022-05-02T15:58:24.538945 18676] Got result name from preprocessor
+[2022-05-02T15:58:24.539078 18676] No result with name c55bd14mi3uou7hq1tm00teiqafjon8mk in the cache
+[2022-05-02T15:58:24.539100 18676] Running real compiler
+[2022-05-02T15:58:24.540195 3796 ] Got result name from preprocessor
+[2022-05-02T15:58:24.540299 3796 ] No result with name 894drbft14vddmj0glvs6e56geneicf58 in the cache
+[2022-05-02T15:58:24.540329 3796 ] Running real compiler
+[2022-05-02T15:58:25.144023 16772] Using default compression level 1
+[2022-05-02T15:58:25.144160 16772] Storing result __helpers.o
+[2022-05-02T15:58:25.144242 16772] Storing embedded file #0 .o (2647 bytes) from __helpers.o
+[2022-05-02T15:58:25.144994 16772] Stored in cache: C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/d/891l721fulfmc0dbggm81gu09bu2r0eR
+[2022-05-02T15:58:25.145680 16772] Adding result name to C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/5/a1cq085hbg4es9nqk3aebqvkgbnk530M
+[2022-05-02T15:58:25.145750 6908 ] Using default compression level 1
+[2022-05-02T15:58:25.145845 6908 ] Storing result static_src\InspectPatcher.o
+[2022-05-02T15:58:25.145911 6908 ] Storing embedded file #0 .o (40441 bytes) from static_src\InspectPatcher.o
+[2022-05-02T15:58:25.146811 6908 ] Stored in cache: C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/3/73k5s5nhrug3b2bded4jo87nnqg5oouR
+[2022-05-02T15:58:25.146979 6908 ] Adding result name to C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/1/9f6b36vtu8rpouinq0m2qrk40855a00M
+[2022-05-02T15:58:25.158776 16772] Using default compression level 1
+[2022-05-02T15:58:25.160332 16772] Result: cache miss
+[2022-05-02T15:58:25.160394 6908 ] Using default compression level 1
+[2022-05-02T15:58:25.160587 16772] Acquired lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/stats.lock
+[2022-05-02T15:58:25.161699 16016] Using default compression level 1
+[2022-05-02T15:58:25.161807 16016] Storing result __constants.o
+[2022-05-02T15:58:25.161816 16772] Releasing lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/stats.lock
+[2022-05-02T15:58:25.161845 6908 ] Result: cache miss
+[2022-05-02T15:58:25.161880 16016] Storing embedded file #0 .o (14311 bytes) from __constants.o
+[2022-05-02T15:58:25.162058 6908 ] Acquired lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/stats.lock
+[2022-05-02T15:58:25.162130 16772] Acquired lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/stats.lock
+[2022-05-02T15:58:25.162787 16016] Stored in cache: C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/c/49gpgn97t7abjr187ll2a55g58uoqcaR
+[2022-05-02T15:58:25.162892 6908 ] Releasing lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/stats.lock
+[2022-05-02T15:58:25.163078 16772] Releasing lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/stats.lock
+[2022-05-02T15:58:25.163299 6908 ] Acquired lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/stats.lock
+[2022-05-02T15:58:25.163316 16772] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stderr.pxrDV9
+[2022-05-02T15:58:25.163321 16016] Adding result name to C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/4/96b00ud99mo55asf1blt61lf0u7ora2M
+[2022-05-02T15:58:25.163443 16772] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stdout.SFTEA7
+[2022-05-02T15:58:25.163588 16772] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stderr.8c0f0d
+[2022-05-02T15:58:25.163728 16772] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.VXb69v.i
+[2022-05-02T15:58:25.164473 16772] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.VXb69v
+[2022-05-02T15:58:25.175166 16016] Using default compression level 1
+[2022-05-02T15:58:25.176657 16016] Result: cache miss
+[2022-05-02T15:58:25.176926 16016] Acquired lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/stats.lock
+[2022-05-02T15:58:25.177970 16016] Releasing lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/stats.lock
+[2022-05-02T15:58:25.178288 16016] Acquired lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/stats.lock
+[2022-05-02T15:58:25.179591 16016] Releasing lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/stats.lock
+[2022-05-02T15:58:25.179828 16016] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stderr.SpjSoT
+[2022-05-02T15:58:25.179952 16016] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stdout.X2lOkn
+[2022-05-02T15:58:25.180081 16016] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stderr.rkuP6H
+[2022-05-02T15:58:25.180270 16016] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.AwIaMi.i
+[2022-05-02T15:58:25.181262 16016] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.AwIaMi
+[2022-05-02T15:58:25.193660 6908 ] Releasing lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/stats.lock
+[2022-05-02T15:58:25.193929 6908 ] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stderr.XGAunE
+[2022-05-02T15:58:25.194058 6908 ] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stdout.KnomLk
+[2022-05-02T15:58:25.194167 6908 ] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stderr.etUyAB
+[2022-05-02T15:58:25.194327 6908 ] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.4pdXl6.i
+[2022-05-02T15:58:25.195182 6908 ] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.4pdXl6
+[2022-05-02T15:58:25.200089 11600] Using default compression level 1
+[2022-05-02T15:58:25.200216 11600] Storing result static_src\CompiledCellType.o
+[2022-05-02T15:58:25.200298 11600] Storing embedded file #0 .o (35995 bytes) from static_src\CompiledCellType.o
+[2022-05-02T15:58:25.202870 11600] Stored in cache: C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/3/25nlup43jrdiluahhcvqr2r3tqtfreoR
+[2022-05-02T15:58:25.203527 11600] Adding result name to C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/e/8cuamqrm7kg9f237kovbjafeo75008eM
+[2022-05-02T15:58:25.217245 11600] Using default compression level 1
+[2022-05-02T15:58:25.218531 11600] Result: cache miss
+[2022-05-02T15:58:25.218730 11600] Acquired lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2022-05-02T15:58:25.219452 11600] Releasing lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2022-05-02T15:58:25.219676 11600] Acquired lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/stats.lock
+[2022-05-02T15:58:25.220231 11600] Releasing lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/stats.lock
+[2022-05-02T15:58:25.220419 11600] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stderr.az5fqk
+[2022-05-02T15:58:25.220529 11600] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stdout.dI5xDf
+[2022-05-02T15:58:25.220634 11600] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stderr.FJiAR2
+[2022-05-02T15:58:25.220777 11600] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.oHfStA.i
+[2022-05-02T15:58:25.221366 11600] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.oHfStA
+[2022-05-02T15:58:25.246891 18480] Using default compression level 1
+[2022-05-02T15:58:25.247020 18480] Storing result static_src\MetaPathBasedLoader.o
+[2022-05-02T15:58:25.247081 18480] Storing embedded file #0 .o (111117 bytes) from static_src\MetaPathBasedLoader.o
+[2022-05-02T15:58:25.249992 18480] Stored in cache: C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/7/7au98m07crsjn1neuulr5cl6ucljck8R
+[2022-05-02T15:58:25.250551 18480] Adding result name to C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/2/321j4tj4lf6iufbqf7d0tirjanqlq5kM
+[2022-05-02T15:58:25.262838 18480] Using default compression level 1
+[2022-05-02T15:58:25.264267 18480] Result: cache miss
+[2022-05-02T15:58:25.264516 18480] Acquired lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/stats.lock
+[2022-05-02T15:58:25.265311 18480] Releasing lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/stats.lock
+[2022-05-02T15:58:25.265556 18480] Acquired lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2022-05-02T15:58:25.266220 18480] Releasing lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2022-05-02T15:58:25.266425 18480] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stderr.B8gpIX
+[2022-05-02T15:58:25.266536 18480] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stdout.ynxXFQ
+[2022-05-02T15:58:25.266635 18480] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stderr.AmtmTh
+[2022-05-02T15:58:25.266774 18480] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.tNbY1W.i
+[2022-05-02T15:58:25.267423 18480] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.tNbY1W
+[2022-05-02T15:58:25.274650 18788] Got result name from preprocessor
+[2022-05-02T15:58:25.274779 18788] No result with name 51ce4o6da8f9uhjbk4b4opa5k94au248a in the cache
+[2022-05-02T15:58:25.274804 18788] Running real compiler
+[2022-05-02T15:58:25.440704 3796 ] Using default compression level 1
+[2022-05-02T15:58:25.440824 3796 ] Storing result module.__main__.o
+[2022-05-02T15:58:25.440879 3796 ] Storing embedded file #0 .o (243707 bytes) from module.__main__.o
+[2022-05-02T15:58:25.442109 18676] Using default compression level 1
+[2022-05-02T15:58:25.442218 18676] Storing result static_src\CompiledGeneratorType.o
+[2022-05-02T15:58:25.442287 18676] Storing embedded file #0 .o (367433 bytes) from static_src\CompiledGeneratorType.o
+[2022-05-02T15:58:25.442322 3796 ] Stored in cache: C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/9/4drbft14vddmj0glvs6e56geneicf58R
+[2022-05-02T15:58:25.442895 3796 ] Adding result name to C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/5/45a1a7jupp1tm3n54f3f37or37pvei6M
+[2022-05-02T15:58:25.443896 18676] Stored in cache: C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/5/5bd14mi3uou7hq1tm00teiqafjon8mkR
+[2022-05-02T15:58:25.444101 18676] Adding result name to C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/6/5bof2jjbpbdb83389r9qvfhjkqsdo9sM
+[2022-05-02T15:58:25.455634 3796 ] Using default compression level 1
+[2022-05-02T15:58:25.455860 18676] Using default compression level 1
+[2022-05-02T15:58:25.456936 3796 ] Result: cache miss
+[2022-05-02T15:58:25.457222 3796 ] Acquired lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/stats.lock
+[2022-05-02T15:58:25.457478 18676] Result: cache miss
+[2022-05-02T15:58:25.457737 18676] Acquired lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2022-05-02T15:58:25.458082 3796 ] Releasing lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/stats.lock
+[2022-05-02T15:58:25.458379 3796 ] Acquired lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/stats.lock
+[2022-05-02T15:58:25.458890 18676] Releasing lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2022-05-02T15:58:25.459087 3796 ] Releasing lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/stats.lock
+[2022-05-02T15:58:25.459219 18676] Acquired lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/stats.lock
+[2022-05-02T15:58:25.459388 3796 ] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stderr.Ft3kef
+[2022-05-02T15:58:25.459564 3796 ] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stdout.Jx7UsI
+[2022-05-02T15:58:25.459703 3796 ] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stderr.OOEZDl
+[2022-05-02T15:58:25.459904 3796 ] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.w1Dr94.i
+[2022-05-02T15:58:25.460291 18676] Releasing lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/stats.lock
+[2022-05-02T15:58:25.460705 3796 ] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.w1Dr94
+[2022-05-02T15:58:25.460755 18676] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stderr.TPDZlB
+[2022-05-02T15:58:25.460879 18676] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stdout.EPHd1l
+[2022-05-02T15:58:25.461030 18676] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stderr.OrRMI4
+[2022-05-02T15:58:25.461181 18676] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.SoZCaz.i
+[2022-05-02T15:58:25.461939 18676] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.SoZCaz
+[2022-05-02T15:58:25.475448 16376] Got result name from preprocessor
+[2022-05-02T15:58:25.475552 16376] No result with name 9243qq0f2ecbg0c9um1be9dei4odkc2oe in the cache
+[2022-05-02T15:58:25.475570 16376] Running real compiler
+[2022-05-02T15:58:25.998961 18788] Using default compression level 1
+[2022-05-02T15:58:25.999055 18788] Storing result static_src\MainProgram.o
+[2022-05-02T15:58:25.999109 18788] Storing embedded file #0 .o (24689 bytes) from static_src\MainProgram.o
+[2022-05-02T15:58:25.999693 18788] Stored in cache: C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/1/ce4o6da8f9uhjbk4b4opa5k94au248aR
+[2022-05-02T15:58:25.999816 18788] Adding result name to C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/0/74s9q0h0kr104k06q02h2lp0egv1q98M
+[2022-05-02T15:58:26.007640 18788] Using default compression level 1
+[2022-05-02T15:58:26.008533 18788] Result: cache miss
+[2022-05-02T15:58:26.008679 18788] Acquired lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/stats.lock
+[2022-05-02T15:58:26.009198 18788] Releasing lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/stats.lock
+[2022-05-02T15:58:26.009382 18788] Acquired lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/stats.lock
+[2022-05-02T15:58:26.009870 18788] Releasing lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/stats.lock
+[2022-05-02T15:58:26.009982 18788] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stderr.ikLWNa
+[2022-05-02T15:58:26.010047 18788] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stdout.ze1Kmc
+[2022-05-02T15:58:26.010111 18788] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stderr.Rzp5IP
+[2022-05-02T15:58:26.010201 18788] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.M9oRQa.i
+[2022-05-02T15:58:26.010735 18788] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.M9oRQa
+[2022-05-02T15:58:28.046995 16376] Using default compression level 1
+[2022-05-02T15:58:28.047158 16376] Storing result static_src\CompiledFunctionType.o
+[2022-05-02T15:58:28.047198 16376] Storing embedded file #0 .o (3262758 bytes) from static_src\CompiledFunctionType.o
+[2022-05-02T15:58:28.053282 16376] Stored in cache: C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/2/43qq0f2ecbg0c9um1be9dei4odkc2oeR
+[2022-05-02T15:58:28.053744 16376] Adding result name to C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/8/0adp6oadvjrvlf17mlc5b6esrnuqu04M
+[2022-05-02T15:58:28.063596 16376] Using default compression level 1
+[2022-05-02T15:58:28.064633 16376] Result: cache miss
+[2022-05-02T15:58:28.064793 16376] Acquired lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2022-05-02T15:58:28.065568 16376] Releasing lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2022-05-02T15:58:28.065755 16376] Acquired lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/stats.lock
+[2022-05-02T15:58:28.066263 16376] Releasing lock C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/stats.lock
+[2022-05-02T15:58:28.066394 16376] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stderr.pmm7N0
+[2022-05-02T15:58:28.066472 16376] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stdout.vrxHDq
+[2022-05-02T15:58:28.066542 16376] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stderr.2vB3tQ
+[2022-05-02T15:58:28.066635 16376] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.buoFiT.i
+[2022-05-02T15:58:28.067648 16376] Unlink C:\Users\javie\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.buoFiT
