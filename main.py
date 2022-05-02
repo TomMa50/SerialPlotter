@@ -1,5 +1,7 @@
+from os import truncate
 from random import random
 from tkinter import DISABLED, NORMAL
+from tkinter.ttk import Label
 
 import serial
 import threading
@@ -7,6 +9,11 @@ import numpy as np
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
 import tkinter as tk
+import time
+
+from RepeatedTimer import RepeatedTimer
+
+rt = None
 
 PCK_SIZE = 10
 
@@ -32,10 +39,13 @@ data_plot = np.arange(N_POINTS_X)
 data_accum = np.array([])
 
 kill_thread = False
+sample_rate_value = None
+
+SampleCounter = 0
 
 
 def serial_event():
-    global serialInput, payload_counter, pck_ready, data, pck_synced, header1_detected, header2_detected
+    global serialInput, payload_counter, pck_ready, data, pck_synced, header1_detected, header2_detected, SampleCounter
 
     while kill_thread == False:
         input_byte = ord(serialInput.read(1))
@@ -50,6 +60,8 @@ def serial_event():
                     data = np.copy(dataDB[0:(payload_counter - 1)])
                     pck_ready = True
                     pck_synced = False
+                    SampleCounter = SampleCounter + PCK_SIZE + 1
+
                 else:
                     pck_synced = False
                     payload_counter = 0
@@ -61,10 +73,12 @@ def serial_event():
                 if header1_detected and input_byte == HEADER_B:
                     pck_synced = True
 
+
 serialInput = None
 
+
 def start_acq():
-    global serialInput, kill_thread, stop, start, COMPort
+    global serialInput, kill_thread, stop, start, COMPort, rt
     # Init Serial Ports
     kill_thread = False
     portName = COMPort.get()
@@ -74,7 +88,7 @@ def start_acq():
         thread_listener_serial.start()
         stop['state'] = NORMAL
         start['state'] = DISABLED
-
+        rt = RepeatedTimer(0.5, TimerHandler, 0.5)
 
 
 def stop_acq():
@@ -82,6 +96,7 @@ def stop_acq():
     kill_thread = True
     serialInput.close()
     start['state'] = NORMAL
+    rt.stop()
 
 
 # -----plot data-----
@@ -114,6 +129,16 @@ def plot_data():
     root.after(5, plot_data)
 
 
+def TimerHandler(params):
+    global SampleCounter, sample_rate_value
+    sampleRate = (SampleCounter / params)
+    SampleCounter = 0
+    sampleRateReformat = sampleRate/1000
+    buff = "%.1f" % sampleRateReformat
+    buff = buff + " ksps"
+    sample_rate_value.config(text=buff)
+
+
 # Init GUI
 root = tk.Tk()
 root.title('Real Time Plot')
@@ -142,18 +167,16 @@ start = tk.Button(root, text="Start", font=('calbiri', 12), command=lambda: star
 start.place(x=100, y=450)
 
 COMPort = tk.Entry(root)
-COMPort.place(x=start.winfo_x() + start.winfo_reqwidth() + 120, y=450+5)
+COMPort.place(x=start.winfo_x() + start.winfo_reqwidth() + 120, y=450 + 5)
 COMPort.insert(0, 'COM1')
 
 root.update()
 stop = tk.Button(root, text="Stop", font=('calbiri', 12), command=lambda: stop_acq(), state=DISABLED)
 stop.place(x=start.winfo_x() + start.winfo_reqwidth() + 150, y=450)
 
+sample_rate_label = tk.Label(root, text="Current Sample Rate").place(x=start.winfo_x() + start.winfo_reqwidth() + 300,y=450)
+sample_rate_value = Label(root, text="0.0 ksps")
+sample_rate_value.place(x=start.winfo_x() + start.winfo_reqwidth() + 430, y=450)
+
 root.after(1, plot_data)
 root.mainloop()
-
-# while True:
-#     if pck_ready:
-#         print("PCK Received!")
-#
-#         pck_ready = False
